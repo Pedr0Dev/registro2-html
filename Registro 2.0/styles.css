@@ -1,0 +1,52 @@
+body {
+  background-image: url(195750.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center center;
+  backdrop-filter: blur(0.2px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.block {
+  background-color: #545151c2;
+  border-radius: 10px;
+  width: 200px;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.img {
+  width: 130px;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+.title {
+  margin-top: 50px;
+  color: rgb(214, 107, 193);
+  font-family: Roboto Mono, monospace;
+  font-size: 40px;
+}
+
+.subtitle {
+  margin-top: 5px;
+  color: rgb(214, 107, 127);
+  font-family: Roboto Mono, monospace;
+  font-size: 20px;
+}
+
+.dates {
+  margin-top: 6px;
+  display: grid;
+}
+
+.date {
+  margin-top: 6px;
+  display: flex;
+}
